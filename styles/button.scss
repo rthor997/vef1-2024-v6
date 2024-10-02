@@ -5,14 +5,12 @@
   border: var(--border-regular);
   border-radius: var(--border-radius-regular);
   border-width: var(--border-width);
-
   color: var(--color-black);
   background-color: var(--color-background-secondary);
   font-size: 1rem;
   text-decoration: none;
-
   transition: background-color var(--transition-time-short)
-      var(--transition-timing-function),
+    var(--transition-timing-function),
     color var(--transition-time-short) var(--transition-timing-function),
     border-color var(--transition-time-short) var(--transition-timing-function);
 }

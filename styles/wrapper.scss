@@ -19,7 +19,7 @@
   background-color: var(--color-background-primary);
 }
 
-@media (min-width: 800px) {
+@media (width >= 800px) {
   .wrapper {
     gap: var(--vertical-space-large);
   }
@@ -34,7 +34,7 @@
   margin-bottom: var(--spacing);
 }
 
-@media (min-width: 800px) {
+@media (width >= 800px) {
   .wrapper .wrapper-content {
     display: grid;
     grid-template-columns: repeat(var(--columns), 1fr);
